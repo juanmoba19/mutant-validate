@@ -1,0 +1,29 @@
+{
+  "name": "mutant-validator",
+  "version": "1.0.0",
+  "description": "proyecto para validar si un humano es mutante o no",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd -f ./test/.env nyc --all --reporter=lcov --reporter=text-summary mocha --recursive \"./test/**/*.spec.js\" --reporter=nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "author": "juan.molina",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.922.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^1.7.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dirty-chai": "^2.0.1",
+    "env-cmd": "^10.1.0",
+    "mocha": "^5.2.0",
+    "nock": "^9.6.1",
+    "nyc": "^14.1.1",
+    "path": "^0.12.7"
+  }
+}

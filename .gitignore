@@ -1,0 +1,20 @@
+#modules
+node_modules
+
+#vscode
+.vscode
+
+# DS_Store
+.DS_Store
+
+#Serverless configuration
+.serverless
+
+# nyc_output
+.nyc_output
+
+# covertura
+coverage
+
+# packgage-lock.json
+package-lock.json
