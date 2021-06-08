@@ -151,3 +151,5 @@ Por lo tanto para ejecutar las pruebas lo hacemos con el siguiente comando:
 	npm run test
 ```
  **Nota**: El archivo de cobertura se podra observar en la carpeta coverage, despues de ejecutar el comando de test.
+ 
+ ![Uploading Captura de Pantalla 2021-06-07 a la(s) 8.10.16 p. m..png…]()
